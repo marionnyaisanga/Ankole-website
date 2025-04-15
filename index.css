@@ -1,0 +1,281 @@
+.home {
+
+    background-image: url(img/home1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow-x: hidden;
+}
+.menu-bar{
+    border: 1px solid;
+    width:40%;
+    background-color: black;
+    padding: 35px;
+    margin-top: 40%;
+    /* margin-left: 30%; */
+    border-radius: 50px;
+    position: absolute;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+    
+}
+.nav-bar{
+    border: 1px solid;
+    width:40%;
+    background-color: black;
+    padding: 35px;
+    margin-top: 40%;
+    margin-left: 30%;
+    border-radius: 50px;
+    position: absolute;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+    
+}
+.kitisuru{
+    background-image: url(img/home1.jpg);
+    height: 900px;
+    width: 50%;
+    padding-top: 15%;
+    height: 700px;
+    background-color: rgba(0, 0,0, 0.5 );
+    background-blend-mode: darken;
+    
+
+}
+.kitisuru a{
+    text-decoration: none;
+    color: white;
+    
+}
+.kitisuru h3{
+    color: rgb(255, 94, 0);
+    font-weight: 400;
+
+}
+.kilimani{
+    background-image: url(img/home1.jpg);
+    height: 900px;
+    width: 50%;
+    padding-top: 15%;
+    height: 700px;
+    background-color: rgba(0, 0,0, 0.5 );
+    background-blend-mode: darken;
+    
+
+}
+.menu{
+    display: flex;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 100%;
+    font-size: x-large;
+    
+ 
+}
+.kitisuru-menu{
+    display: flex;
+    background-color: black;
+    
+}
+.kitisuru-image{
+    background-image: url(img/fabric.jpg);
+    width: 50%;
+    height: 600px;
+    color: white;
+    text-align: center;
+    padding-top: 320px;
+    font-size: 35px;
+    background-color: rgba(0, 0,0, 0.5 );
+    background-blend-mode: darken;
+
+}
+.kitisuru-image h1{
+    color: rgb(255, 94, 0);
+    font-weight: 500;
+}
+.filter{
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.filter a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-left: 60px;
+}
+.nav-bar .menu-nav{
+    border: 1px solid;
+    width:40%;
+    background-color: black;
+    padding: 35px;
+    margin-top: 40%;
+    margin-left: 30%;
+    border-radius: 50px;
+    position: absolute;
+    
+
+}
+.kilimani{
+    background-image: url(img/home1.jpg);
+    height: 900px;
+    width: 50%;
+    padding-top: 15%;
+    height: 700px;
+    background-color: rgba(0, 0,0, 0.5 );
+    background-blend-mode: darken;
+
+}
+.kilimani a{
+    text-decoration: none;
+    color: white;
+    
+}
+.kilimani h3{
+    color: rgb(255, 94, 0);
+    font-weight: 400;
+
+}
+.kilimani-menu{
+    display: flex;
+    background-color: black;
+    
+}
+.kilimani-image{
+    background-image: url(img/fabric.jpg);
+    width: 50%;
+    height: 600px;
+    color: white;
+    text-align: center;
+    padding-top: 320px;
+    font-size: 35px; 
+    background-color: rgba(0, 0,0, 0.5 );
+    background-blend-mode: darken;
+
+}
+.kilimani-image h1{
+    color: rgb(255, 94, 0);
+    font-weight: 500;
+}
+.kilimani-image h3{
+    font-weight: 300;
+    font-size:larger;
+}
+.kitisuru -image h3{
+    font-weight: 300;
+    font-size:larger;
+}
+.accra{
+    background-image: url(img/accra1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 630px;
+    width: 650px;
+    background-color: rgba(0, 0,0, 0.6 );
+    background-blend-mode: darken;
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+  
+}
+.nairobi{
+    background-image: url(img/nairobi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 630px;
+    width: 650px;
+    background-color: rgba(0, 0,0, 0.7 );
+    background-blend-mode: darken;
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+}
+.zanzibar{
+    background-image: url(img/zanzibar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 630px;
+    width: 650px;
+    background-color: rgba(0, 0,0, 0.7 );
+    background-blend-mode: darken;
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+}
+
+.events{
+    display: flex;
+    height: 60%;
+    width: 100%;
+    
+}
+.events h4{
+    color: rgb(196, 164, 105);
+    font-weight: 500;
+}
+
+.events h5{
+    color: grey;
+    font-size: larger;
+    font-weight: 400;
+}
+.events h1{
+    font-size: 40px;
+    
+}
+.events p{
+    font-size: medium;
+}
+.reviews{
+    background-color: black;
+}
+.live{
+    background-image: url(img/live\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0,0, 0.9);
+    background-blend-mode: darken;
+    height: 700px;
+}
+.tukatike h3{
+color: white;
+font-weight: 400;
+font-size: large;
+/* padding-top: 400px;
+padding-left: 20px; */
+/* text-align: center; */
+
+}
+.tukatike h1{
+    color: rgb(255, 94, 0);
+    font-weight: 400;
+    font-size: 60px;
+}
+.tukatike{
+    padding-top: 400px;
+    margin-left: 250px;
+    width: 400px;
+    text-align: center;
+}
+.live-bar{
+    border: 1px solid;
+    width:40%;
+    background-color: black;
+    padding: 35px;
+    margin-top: 40%;
+    /* margin-left: 30%; */
+    border-radius: 50px;
+    position: absolute;
+    
+
+}
