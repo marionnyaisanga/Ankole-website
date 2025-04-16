@@ -1,14 +1,19 @@
-.home {
-
-    background-image: url(img/home1.jpg), url(img/body\ background2.jpeg), 
-    url(img/backg3.jpeg), url(img/back4.jpeg);
-    background-color: #ccc;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    overflow-x: hidden;
+.reviews{
+    background-color: black;
 }
 
+
+.sample{
+    color: white;
+}
+
+.reviews img{
+    /* border: solid white 1px; */
+    margin-left: 45%;
+    position: absolute;
+    padding-top: 100px;
+    width: 200px;
+}
 nav a{
     text-decoration: none;
     color: white;
@@ -26,8 +31,3 @@ nav a{
     position: absolute;
     
 }
-
-
-
-
-

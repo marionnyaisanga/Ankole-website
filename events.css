@@ -1,0 +1,90 @@
+nav a{
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+    
+}
+.nav-bar{
+    border: 1px solid;
+    width:40%;
+    background-color: black;
+    padding: 35px;
+    margin-top: 40%;
+    margin-left: 30%;
+    border-radius: 50px;
+    position: absolute;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+    
+}.accra{
+    background-image: url(img/accra1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 630px;
+    width: 650px;
+    background-color: rgba(0, 0,0, 0.6 );
+    background-blend-mode: darken;
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+  
+}
+.nairobi{
+    background-image: url(img/nairobi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 630px;
+    width: 650px;
+    background-color: rgba(0, 0,0, 0.7 );
+    background-blend-mode: darken;
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+}
+.zanzibar{
+    background-image: url(img/zanzibar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 630px;
+    width: 650px;
+    background-color: rgba(0, 0,0, 0.7 );
+    background-blend-mode: darken;
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+}
+
+.events{
+    display: flex;
+    height: 60%;
+    width: 100%;
+    
+}
+.events h4{
+    color: rgb(196, 164, 105);
+    font-weight: 500;
+}
+
+.events h5{
+    color: grey;
+    font-size: larger;
+    font-weight: 400;
+}
+.events h1{
+    font-size: 40px;
+    
+}
+.events p{
+    font-size: medium;
+}
+.event img{
+    margin-left: 45%; 
+    position: absolute;
+    padding-top: 100px;
+    width: 200px;
+
+}

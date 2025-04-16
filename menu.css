@@ -1,0 +1,95 @@
+body{
+    background-color: black;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+    
+}
+.nav-bar{
+    border: 1px solid;
+    width:40%;
+    background-color: black;
+    padding: 35px;
+    margin-top: 40%;
+    margin-left: 30%;
+    border-radius: 50px;
+    position: absolute;
+    position: fixed;
+    
+}.kitisuru{
+    background-image: url(img/home1.jpg);
+    height: 900px;
+    width: 50%;
+    padding-top: 15%;
+    height: 700px;
+    background-color: rgba(0, 0,0, 0.5 );
+    background-blend-mode: darken;
+    
+
+}
+.kitisuru a{
+    text-decoration: none;
+    color: white;
+    
+}
+.kitisuru h3{
+    color: rgb(255, 94, 0);
+    font-weight: 400;
+
+}
+.kilimani{
+    background-image: url(img/home1.jpg);
+    height: 900px;
+    width: 50%;
+    padding-top: 15%;
+    height: 700px;
+    background-color: rgba(0, 0,0, 0.5 );
+    background-blend-mode: darken;
+    
+
+}
+.menu{
+    display: flex;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 800px;
+    font-size: x-large;
+
+    
+ 
+}
+.menu-cover img{
+    margin-left: 45%; 
+    position: absolute;
+    padding-top: 100px;
+    width: 200px;
+
+}
+.kilimani{
+    background-image: url(img/home1.jpg);
+    height: 900px;
+    width: 50%;
+    padding-top: 15%;
+    height: 700px;
+    background-color: rgba(0, 0,0, 0.5 );
+    background-blend-mode: darken;
+
+}
+.kilimani a{
+    text-decoration: none;
+    color: white;
+    
+}
+.kilimani h3{
+    color: rgb(255, 94, 0);
+    font-weight: 400;
+
+}
+.kilimani-menu{
+    display: flex;
+    background-color: black;
+    
+}

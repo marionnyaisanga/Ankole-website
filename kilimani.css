@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+}
+.menu-bar{
+    border: 1px solid;
+    width:40%;
+    background-color: black;
+    padding: 35px;
+    margin-top: 40%;
+    /* margin-left: 30%; */
+    border-radius: 50px;
+    position: absolute;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+    
+}
+.kilimani-image{
+    background-image: url(img/fabric.jpg);
+    width: 50%;
+    height: 600px;
+    color: white;
+    text-align: center;
+    padding-top: 320px;
+    font-size: 35px; 
+    background-color: rgba(0, 0,0, 0.5 );
+    background-blend-mode: darken;
+
+}
+.kilimani-image h1{
+    color: rgb(255, 94, 0);
+    font-weight: 500;
+}
+.kilimani-image h3{
+    font-weight: 300;
+    font-size:larger;
+}
+.menu-kilimani img{
+    margin-left: 20%;  
+    position: absolute;
+    padding-top: 100px;
+    width: 200px;
+
+}
+
+.kilimani-menu{
+    display: flex;
+    background-color: black;
+    
+}
+.filter{
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.filter a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-left: 60px;
+}
+.menu-details{
+    color: azure;
+    /* display: flex; */
+}
+
+.menu-item{
+    color:beige;
+    padding-top: 180px;
+    
+    
+}
+.menu-item h2 {
+    font-weight: 400;
+    font-size: xx-large;
+}
+.menu-item h5 {
+    font-weight: 400;
+    font-size: large;
+}
+.food{
+    overflow: auto;
+    height: 800px;
+    width: 55%;
+    
+}
+ .food-price{
+    display: flex;
+    color: azure;
+    
+ }
+ .prices{
+    padding-left: 200px;
+ 
+ }
+ .prices h3{
+  font-weight: 400;
+ }
