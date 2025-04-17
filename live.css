@@ -1,24 +1,34 @@
-.live{
+body{
+    margin: 0%;
+}
+.live-page{
+   
+    overflow-y: scroll;
     background-image: url(img/live\ background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(0, 0,0, 0.9);
     background-blend-mode: darken;
-    height: 700px;
+    /* height: 1000px; */
+
 }
-.live img{
+
+   
+.live-page img{
     margin-left: 19%;  
-    position: absolute;
+    /* position: absolute; */
     padding-top: 100px;
     width: 200px;
+    position: fixed;
+    /* border: 2px black solid; */
 }
 .tukatike h3{
 color: white;
 font-weight: 400;
 font-size: large;
-/* padding-top: 400px;
-padding-left: 20px; */
-/* text-align: center; */
+padding-top: 300px;
+padding-left: 20px; 
+text-align: center;
 
 }
 .tukatike h1{
@@ -27,20 +37,23 @@ padding-left: 20px; */
     font-size: 60px;
 }
 .tukatike{
-    padding-top: 400px;
+    padding-top: 100px;
     margin-left: 250px;
     width: 400px;
     text-align: center;
+    position: fixed;
+    
 }
 .live-bar{
     border: 1px solid;
     width:40%;
     background-color: black;
     padding: 35px;
-    margin-top: 40%;
+    margin-top: 35%;
     /* margin-left: 30%; */
     border-radius: 50px;
     position: absolute;
+    position: fixed;
     
 }
 .menu-bar{
@@ -48,10 +61,10 @@ padding-left: 20px; */
     width:40%;
     background-color: black;
     padding: 35px;
-    margin-top: 40%;
+    margin-top: 60%;
     /* margin-left: 30%; */
     border-radius: 50px;
-    position: absolute;
+    /* position: absolute; */
     
 }
 nav a{
@@ -60,3 +73,185 @@ nav a{
     padding-left: 50px;
     
 }
+#live-1 img{
+    padding-left: 0%;
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    position: absolute;
+    
+}
+#live-1{
+    /* border: 2px black solid; */
+    width:40% ; 
+    margin-left: 30%;
+    
+ 
+}
+#live-2 {
+    /* border: 2px black solid; */
+    height: 400px;
+    width:350px;
+    margin-left: 30%;
+    margin-top: 3%;
+ 
+}
+#live-2 img{
+    padding-left: 0%;
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    position: absolute;  
+} 
+#live-3 {
+    /* border: solid black 2px; */
+    height: 400px;
+
+}
+#live-3 img{
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 49%;
+}
+
+
+.fadhilee{
+    background-image: url(img/live1.jpg);
+    background-color: rgba(0,0,0,0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken; 
+    overflow-x: hidden;
+   
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding-left: 50px;
+    
+}
+.nav-bar{
+    border: 1px solid;
+    width:40%;
+    background-color: black;
+    padding: 35px;
+    margin-top: 10%;
+    margin-left: 30%;
+    border-radius: 50px;
+    position: absolute;
+    /* position: fixed; */
+    
+}
+.empty{
+    /* border: solid  black; */
+    margin-top: 67%;
+    margin-left: 120%;
+    position: absolute;
+    color: rgba(240, 148, 148, 0);
+}
+.mashrooms{
+    background-image: url(img/live2.jpg);
+    background-color: rgba(0,0,0,0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken; 
+    overflow-x: hidden;
+   
+}.syssi{
+    background-image: url(img/live3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken; 
+    overflow-x: hidden;
+    
+    
+}
+.syssi h1{
+    color: white;
+    font-weight: 500;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20%;
+}
+.fadhilee h1{
+    color: white;
+    font-weight: 500;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20%;
+}
+.mashrooms h1{
+    color: white;
+    font-weight: 500;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20%;
+
+}
+.artists{
+    display: flex;
+    color: azure;
+}
+.text-fadhilee{
+    margin-top: 10%;
+}
+.artists1{
+    display: flex;
+    color: azure;
+  
+}
+.text-mashrooms{
+    margin-left: 22%;
+    margin-top: 15%;
+}
+.artists2{
+    display: flex;
+    color: azure;
+  
+}
+.text-syssi{
+    margin-left: 70%;
+    margin-top: 11%;
+    
+}
+.text-syssi h2{
+    font-weight: 400;
+    font-size: 25px;
+}
+.text-syssi h5{
+font-weight: 400;
+color: rgb(255, 115, 0);
+font-size: larger;
+}
+.text-mashrooms h2{
+    font-weight: 400;
+    font-size: 25px;
+}
+.text-mashrooms h5{
+font-weight: 400;
+color: rgb(255, 115, 0);
+font-size: larger;
+}
+.text-fadhilee h2{
+    font-weight: 400;
+    font-size: 25px;
+}
+.text-fadhilee h5{
+font-weight: 400;
+color: rgb(255, 115, 0);
+font-size: larger;
+}
+#reserve{
+    background-color: grey;
+    /* border: 1px white solid; */
+    padding: 15px;
+    margin-left: 20px;
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+

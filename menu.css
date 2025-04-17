@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    margin: 0%;
 }
 nav a{
     text-decoration: none;
@@ -18,7 +19,8 @@ nav a{
     position: absolute;
     position: fixed;
     
-}.kitisuru{
+}
+.kitisuru{
     background-image: url(img/home1.jpg);
     height: 900px;
     width: 50%;
@@ -40,7 +42,7 @@ nav a{
 
 }
 .kilimani{
-    background-image: url(img/home1.jpg);
+    background-image: url(img/kilimani.jpeg);
     height: 900px;
     width: 50%;
     padding-top: 15%;
@@ -69,7 +71,9 @@ nav a{
 
 }
 .kilimani{
-    background-image: url(img/home1.jpg);
+    background-image: url(img/ankolegrill.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 900px;
     width: 50%;
     padding-top: 15%;
@@ -92,4 +96,14 @@ nav a{
     display: flex;
     background-color: black;
     
+}
+#reserve{
+    background-color: grey;
+    /* border: 1px white solid; */
+    padding: 15px;
+    margin-left: 20px;
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+
 }
