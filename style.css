@@ -15,8 +15,7 @@ body{
     background-repeat: no-repeat;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
-    background-color: rgba(0, 0, 0, 0.2);
-    background-blend-mode: darken;
+   
     
 
 }

@@ -44,3 +44,106 @@ nav a{
     padding-right: 30px;
 
 }
+.sample h1{
+    margin-bottom: 150%;
+    margin-left: 460%;
+
+}
+#left-quote{
+    /* border: white solid; */
+    width: 50px;
+    margin-top: 560px;
+    margin-bottom: 400px;
+    
+}
+#right-quote{
+    margin-right: 80%;
+    margin-bottom: 10%;
+    width: 50px;
+    
+}
+
+t* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+  }
+  
+  .page{
+    background: #050505;
+    color: #ffffff;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+    & .slide-container{
+      width: 50%;
+      color: white;
+    }
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 12%;
+  }
+  
+  .top{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    cursor: pointer;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 20%;
+  }
+  
+  .frame{
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+   
+  }
+  
+  .slider{
+    display: flex;
+    width: 200vw;
+    transition: all 1s ease;
+    margin-bottom: 40%;
+    
+  }
+  .slide{
+    width: 100vm;
+    flex-shrink: 0;
+    padding: 3%;
+    padding-left: 140px;
+  }
+  .slide p{
+    text-align: center;
+    padding-top: 0px;
+  }
+  
+  .testimonial {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+  .testimonial h3{
+   
+margin-bottom: 20%;
+  }
