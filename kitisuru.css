@@ -193,3 +193,201 @@ nav a{
 
 }
   
+@media screen and (max-width: 500px) {
+    body{
+        background-color: black;
+        overflow:visible;
+        margin: 0%;
+    }
+    .kitisuru-menu{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        
+    }
+    .kitisuru-image{
+        background-image: url(img/fabric.jpg);
+        width: 100%;
+        height: 600px;
+        color: white;
+        text-align: center;
+        padding-top: 320px;
+        font-size: 35px;
+        background-color: rgba(0, 0,0, 0.5 );
+        background-blend-mode: darken;
+    
+    }
+    .kitisuru-image h1{
+        color: rgb(255, 94, 0);
+        font-weight: 500;
+    }
+    .menu-kisituru img{
+        margin-left: 20%;  
+        position: absolute;
+        padding-top: 100px;
+        width: 200px;
+    
+    }
+    .filter{
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    
+    .filter a{
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        padding-left: 6px;
+    }
+    
+    .menu-bar{
+        border: 1px solid;
+        width:40%;
+        background-color: black;
+        padding: 35px;
+        margin-top: 40%;
+        /* margin-left: 30%; */
+        border-radius: 50px;
+        position: absolute;
+        
+    }
+    nav a{
+        text-decoration: none;
+        color: white;
+        padding-left: 50px;
+        
+    }
+    .menu-details{
+        color: azure;
+        /* display: flex; */
+    }
+    
+    .menu-item{
+        color:beige;
+        padding-top: 180px;
+        
+        
+    }
+    .menu-item h2 {
+        font-weight: 400;
+        font-size: xx-large;
+    }
+    .menu-item h3{
+        color: rgb(255, 94, 0);
+        font-weight: 200;
+    }
+    .menu-item h5 {
+        font-weight: 400;
+        font-size: large;
+    }
+    .food{
+        overflow: auto;
+        height: 800px;
+        width: 100%;
+        
+    }
+    
+     #reserve{
+        background-color: grey;
+        /* border: 1px white solid; */
+        padding: 15px;
+        margin-left: 20px;
+        border-radius: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+    
+    }
+    .fresh-coffee{
+        color: azure;
+        display: flex;
+        gap: 30%;
+        margin-left: 20px;
+    }
+    .breakfast{
+        color: azure;
+        display: flex;
+        /* margin-left: 60% ; */
+        width: 100%;
+        gap: 50px;
+        /* padding-bottom: 50px; */
+        /* border: seashell solid; */
+    }
+    .breakfast img{
+        position: relative; 
+        width: 60px;
+         padding-bottom: 60px;
+       margin-left: 5px;
+    }
+    
+    .breakfast p{
+        width: 800px;
+        /* border: wheat solid; */
+        margin-top: 100px;
+        gap: 200px;
+    }
+    .soup{
+        color: azure;
+        display: flex;
+        gap: 00px;
+        margin-left: 5px;
+    }
+    .dish{
+        color: azure;
+        display: flex;
+        gap: 40px;
+        margin-left: 15px;
+    
+    }
+    .dish img{
+        position: relative;
+        width: 40px;
+    }
+    .cocktails{
+        display: flex;
+        color: azure;
+        margin-left: 100px;
+        gap: 30px;
+        /* border: solid 1px ; */
+        /* margin-bottom:0px ; */
+       
+    }
+    .cocktails img{
+        position: relative;
+        width: 60px;
+        padding-bottom: 0px;
+        
+    }
+    
+    .dish p{
+        margin-top: 100px;
+        margin-right: 15%;
+    
+    }
+    .cocktails p{
+        margin-top: 120px;
+        /* margin-right: 55%; */
+    
+    }
+    .cocktails h4{
+        margin-left: 140px;
+        margin-top: 110px;
+        justify-content: left;
+        /* border: white solid; */
+    }
+    .juice{
+        color: azure;
+        display: flex;
+        margin-top: 70px;
+        margin-left: 20px;
+        gap: 90px;
+    }
+    #title{
+        color: white;
+        margin-left: 20px;
+        color: rgb(255, 94, 0);
+        font-weight: 200;
+        margin-top: 60px;
+    
+    }
+    
+}
