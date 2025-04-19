@@ -15,8 +15,6 @@ body{
     background-repeat: no-repeat;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
-   
-    
 
 }
 
@@ -68,7 +66,7 @@ nav a{
     border: 1px solid;
     width:40%;
     background-color: black;
-    padding: 35px;
+    padding: 25px;
     margin-top: 40%;
     margin-left: 30%;
     border-radius: 50px;
@@ -95,8 +93,300 @@ nav a{
     padding-right: 30px;
 
 }
+.icons{
+position: absolute;
+left: 93%;
+gap: 25px;
+display: flex;
+top: 20px;
+}
+.icons a{
+    height: px;
+}
+.whatsapp{
+    position: absolute;
+    margin-top: 40%;
+    
+    margin-left: 93%;
+
+}
+.whatsapp img{
+    width: 30px;
+    background-color: rgba(10, 10, 10, 0.959);
+    padding: 10px;
+    border: white solid 1px;
+    border-radius: 50px;
+}
+
+@media screen and (max-width:500px) {
+    body{
+        overflow: visible;
+        margin: 0%;
+    }
+    .image{
+        width: 100%;
+        height:100%;
+        justify-content: center;
+        text-align: center;
+        background-size: cover; 
+        position: absolute;
+        opacity: 0;
+        animation: slide 10s infinite forwards;
+        background-repeat: no-repeat;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+       
+        
+    
+    }
+    
+    .image:nth-child(1){
+    background-image: url(img/home1.jpg);
+    animation-delay: 0s;
+    }
+    .image:nth-child(2){
+        background-image: url(img/anokle\ steak.jpg);
+        animation-delay: 5s;
+    }
+    .image:nth-child(3){
+        background-image: url(img/anokle\ ingredient.jpg);
+        animation-delay: 10s;
+    }
+    .image:nth-child(4){
+        background-image: url(img/anokle\ drink.jpg);
+        animation-delay: 15s;
+    }
+    .image:nth-child(5){
+        background-image: url(img/ankole-discover.jpg);
+        animation-delay: 20s;
+        }
+    @keyframes slide {
+        0% {opacity: 0;}
+        25% {opacity: 1;}
+        50% {opacity: 1;}
+        75% {opacity: 1;}
+        100% {opacity: 1;}
+        
+    }
+    .image img{
+        margin-top: 100px;
+        width: 100px;
+    }
+    .image h1{
+        color:rgba(85, 84, 84, 0.671);
+        margin-top: 150px;
+        font-size: 50px;
+    }
+    
+    nav a{
+        text-decoration: none;
+        color: white;
+        padding-left: 10px;
+        
+        
+        
+    }
+    .nav-bar{
+        display: flex;
+        border: 1px solid;
+        width:40%;
+        height: 1px;
+        background-color: black;
+        margin-left: 30%;
+        margin-top: 150%;
+        border-radius: 60px;
+        position: absolute;
+        
+    }
+    #home{
+        display: none;
+    }
+    #contacts{
+        display: none;
+    }
+    #events{
+        display: none;
+    }
+    #menu{
+        display: none;
+    }
+    #reviews{
+        display: none;
+    }
+    #live{
+        display: none;
+    }
+    #reserve{
+        background-color: grey;
+        border: 1px rgb(19, 18, 18) solid; 
+        padding: 4px;
+        padding-left: 20px;
+        border-radius: 50px;
+        border-radius: 50px;
+        padding-right: 30px;
+        height: 20px;
+        
+    
+    }
+
+    .icons{
+    position: absolute;
+    left: 87%;
+    gap: 29px;
+    display: flex;
+    flex-direction: column-reverse;
+    top: 20px;
+    }
+    .icons a{
+        height: 3px;
+    }
+    .whatsapp{
+        position: absolute;
+        margin-top: 0%;
+        
+        margin-left: 83%;
+    
+    }
+    .whatsapp img{
+        width: 30px;
+        background-color: rgba(10, 10, 10, 0.959);
+        padding: 10px;
+        border: white solid 1px;
+        border-radius: 50px;
+        margin-top: 970%;
+    }
+    
 
 
+    
+}
+
+@media screen and (min-width:501px) and (max-width:1000px) {
+    body{
+        overflow: visible;
+        margin: 0%;
+    }
+    .image{
+        width: 100%;
+        height:100%;
+        justify-content: center;
+        text-align: center;
+        background-size: cover; 
+        position: absolute;
+        opacity: 0;
+        animation: slide 10s infinite forwards;
+        background-repeat: no-repeat;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+       
+        
+    
+    }
+    
+    .image:nth-child(1){
+    background-image: url(img/home1.jpg);
+    animation-delay: 0s;
+    }
+    .image:nth-child(2){
+        background-image: url(img/anokle\ steak.jpg);
+        animation-delay: 5s;
+    }
+    .image:nth-child(3){
+        background-image: url(img/anokle\ ingredient.jpg);
+        animation-delay: 10s;
+    }
+    .image:nth-child(4){
+        background-image: url(img/anokle\ drink.jpg);
+        animation-delay: 15s;
+    }
+    .image:nth-child(5){
+        background-image: url(img/ankole-discover.jpg);
+        animation-delay: 20s;
+        }
+    @keyframes slide {
+        0% {opacity: 0;}
+        25% {opacity: 1;}
+        50% {opacity: 1;}
+        75% {opacity: 1;}
+        100% {opacity: 1;}
+        
+    }
+    .image img{
+        margin-top: 100px;
+        width: 150px;
+    }
+    .image h1{
+        color:rgba(85, 84, 84, 0.671);
+        margin-top: 150px;
+        font-size: 80px;
+    }
+    
+    nav a{
+        text-decoration: none;
+        color: white;
+        padding-left: 30px;
+        
+    }
+    .nav-bar{
+        border: 1px solid;
+        width:80%;
+        background-color: black;
+        padding: 25px;
+        margin-top: 120%;
+        margin-left: 7%;
+        border-radius: 50px;
+        position: absolute;
+        
+    }
+    #reserve{
+        background-color: grey;
+        /* border: 1px white solid; */
+        padding: 15px;
+        margin-left: 20px;
+        border-radius: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+    
+    }
+    #reserve{
+        background-color: grey;
+        /* border: 1px white solid; */
+        padding: 15px;
+        margin-left: 20px;
+        border-radius: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+    
+    }
+    .icons{
+    position: absolute;
+    left: 93%;
+    gap: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    top: 20px;
+    }
+    .icons a{
+        height: px;
+    }
+    .whatsapp{
+        position: absolute;
+        margin-top: 110%;
+        
+        margin-left: 89%;
+    
+    }
+    .whatsapp img{
+        width: 30px;
+        background-color: rgba(10, 10, 10, 0.959);
+        padding: 10px;
+        border: white solid 1px;
+        border-radius: 50px;
+    }
+
+
+    
+}
 
 
 
